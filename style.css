@@ -7,12 +7,17 @@
 .mainNav {
   height: 50px;
   font-size: 18px;
+  font-weight: bold;
   background-color: black;
+  text-align: center;
 }
 
 .mainNav li {
   display: inline;
   color: #aaaaaa;
+  padding: 25px;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
 .banner {
@@ -21,25 +26,30 @@
   background-color: #71c4ea;
 }
 
+.circle {
+  text-align: center;
+}
+
 .circle div {
   height: 140px;
   width: 140px;
   border-radius: 50%;
   background-color: #efefef;
+  margin-top: 70px;
+  display: inline-block;
 }
 
 .bodywrapper .circle p {
   text-align: center;
 }
 
-.bodywrapper li {
+.bodywrapper .circle li {
   display: inline-block;
-  margin-bottom: 110px;
+  padding-left: 75px;
 }
 
 .bodywrapper h1 {
   margin-top: 64px;
-  margin-bottom: 70px;
   font-size: 36px;
   color: #444444;
   text-align: center;
@@ -48,10 +58,28 @@
 .footerList {
   height: 50px;
   background-color: #ECECEC;
+  margin-top: 110px;
+  text-align: center;
 }
 
 .footerList li {
   display: inline;
+  vertical-align: middle;
+  line-height: 55px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.footerList a {
   color: #FF8000;
   font-size: 16px;
+  text-decoration: none;
+}
+
+.footerList a:hover {
+  color: #444444;
+}
+
+#firstTile {
+  padding: 0;
 }
