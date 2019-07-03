@@ -1,7 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+.blankDiv {
+  background-color: #ff8000;
+  width: 140px;
+  height: 35px;
+  float: left;
+  margin: 8px 100px;
 }
 
 .mainNav {
@@ -10,24 +17,35 @@
   font-weight: bold;
   background-color: black;
   text-align: center;
+  margin: 0 auto;
+}
+
+.mainNav ul {
+  width: 385px;
+  margin: 0 auto;
 }
 
 .mainNav li {
-  display: inline;
+  float: left;
   color: #aaaaaa;
-  padding: 25px;
-  vertical-align: middle;
-  line-height: 50px;
+  margin:16px 10px;
+  list-style: none;
 }
 
 .banner {
-  height: 100px;
+  height: 485px;
   width: 100%;
   background-color: #71c4ea;
 }
 
 .circle {
   text-align: center;
+  width: 920px;
+  margin: 0 auto;
+}
+
+.circle p {
+  width: 142px;
 }
 
 .circle div {
@@ -36,7 +54,7 @@
   border-radius: 50%;
   background-color: #efefef;
   margin-top: 70px;
-  display: inline-block;
+  float: left;
 }
 
 .bodywrapper .circle p {
@@ -44,8 +62,9 @@
 }
 
 .bodywrapper .circle li {
-  display: inline-block;
-  padding-left: 75px;
+  float: left;
+  list-style: none;
+  margin-right: 75px;
 }
 
 .bodywrapper h1 {
@@ -63,11 +82,10 @@
 }
 
 .footerList li {
-  display: inline;
-  vertical-align: middle;
-  line-height: 55px;
-  padding: 10px;
+  float: left;
+  list-style: none;
   font-weight: bold;
+  margin: 17px 10px;
 }
 
 .footerList a {
@@ -80,6 +98,12 @@
   color: #444444;
 }
 
-#firstTile {
-  padding: 0;
+.footerWrapper {
+  width: 420px;
+  margin: 0 auto;
+}
+
+.clearList {
+	clear: both;
+	float: none;
 }
