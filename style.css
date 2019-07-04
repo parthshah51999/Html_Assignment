@@ -8,43 +8,46 @@
   width: 140px;
   height: 35px;
   float: left;
-  margin: 8px 100px;
+  margin: 7.5px 50px 7.5px 100px;
 }
 
 .mainNav {
-  height: 50px;
   font-size: 18px;
   font-weight: bold;
   background-color: black;
   text-align: center;
-  margin: 0 auto;
 }
 
 .mainNav ul {
-  width: 385px;
+  width: 375px;
   margin: 0 auto;
 }
 
 .mainNav li {
-  float: left;
   color: #aaaaaa;
-  margin:16px 10px;
   list-style: none;
+  float: left;
+  margin: 12.5px 20px 12.5px 0;
+}
+
+.mainNav li:last-child {
+  margin-right: 0;
 }
 
 .banner {
-  height: 485px;
+  padding: 242px;
   width: 100%;
   background-color: #71c4ea;
 }
 
 .circle {
   text-align: center;
-  width: 920px;
+  width: 793px;
   margin: 0 auto;
 }
 
 .circle p {
+  text-align: center;
   width: 142px;
 }
 
@@ -57,14 +60,14 @@
   float: left;
 }
 
-.bodywrapper .circle p {
-  text-align: center;
-}
-
-.bodywrapper .circle li {
+.circle li {
   float: left;
   list-style: none;
   margin-right: 75px;
+}
+
+.circle li:last-child {
+  margin-right: 0;
 }
 
 .bodywrapper h1 {
@@ -74,36 +77,30 @@
   text-align: center;
 }
 
-.footerList {
-  height: 50px;
+.footer {
   background-color: #ECECEC;
-  margin-top: 110px;
+  margin-top: 100px;
   text-align: center;
 }
 
-.footerList li {
+.footer li {
   float: left;
   list-style: none;
   font-weight: bold;
-  margin: 17px 10px;
+  margin: 13.9px 20px 13.9px 0;
 }
 
-.footerList a {
+.footer a {
   color: #FF8000;
   font-size: 16px;
   text-decoration: none;
 }
 
-.footerList a:hover {
+.footer a:hover {
   color: #444444;
 }
 
-.footerWrapper {
+.footerList {
   width: 420px;
   margin: 0 auto;
-}
-
-.clearList {
-	clear: both;
-	float: none;
 }
