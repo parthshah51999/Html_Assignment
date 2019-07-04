@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blankDiv {
+  background-color: #ff8000;
+  width: 140px;
+  height: 35px;
+  float: left;
+  margin: 7.5px 50px 7.5px 100px;
+}
+
+.mainNav {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+}
+
+.mainNav ul {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.mainNav li {
+  color: #aaaaaa;
+  list-style: none;
+  float: left;
+  margin: 12.5px 20px 12.5px 0;
+}
+
+.mainNav li:last-child {
+  margin-right: 0;
+}
+
+.banner {
+  padding: 242px;
+  width: 100%;
+  background-color: #71c4ea;
+}
+
+.circle {
+  text-align: center;
+  width: 793px;
+  margin: 0 auto;
+}
+
+.circle p {
+  text-align: center;
+  width: 142px;
+}
+
+.circle div {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: #efefef;
+  margin-top: 70px;
+  float: left;
+}
+
+.circle li {
+  float: left;
+  list-style: none;
+  margin-right: 75px;
+}
+
+.circle li:last-child {
+  margin-right: 0;
+}
+
+.bodywrapper h1 {
+  margin-top: 64px;
+  font-size: 36px;
+  color: #444444;
+  text-align: center;
+}
+
+.footer {
+  background-color: #ECECEC;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.footer li {
+  float: left;
+  list-style: none;
+  font-weight: bold;
+  margin: 13.9px 20px 13.9px 0;
+}
+
+.footer a {
+  color: #FF8000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #444444;
+}
+
+.footerList {
+  width: 420px;
+  margin: 0 auto;
+}
